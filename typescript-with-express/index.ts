@@ -8,7 +8,9 @@ const port = 6000;
 app.get("/hello", (req: any, res: any) => {
   res.send("Im here");
 });
+
 app.get("/", (req: any, res: any) => {
+  console.log("hiiiiii")
   res.send("Hello world");
 });
 
